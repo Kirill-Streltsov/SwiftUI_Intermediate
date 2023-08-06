@@ -14,6 +14,7 @@
 		8776C5A22A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5A12A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift */; };
 		8776C5A42A804FA0004B0EF9 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5A32A804FA0004B0EF9 /* RotationGestureBootcamp.swift */; };
 		8776C5A62A8050DB004B0EF9 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5A52A8050DB004B0EF9 /* DragGestureBootcamp.swift */; };
+		8776C5A82A805555004B0EF9 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5A72A805555004B0EF9 /* DragGestureBootcamp2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8776C5A12A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		8776C5A32A804FA0004B0EF9 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		8776C5A52A8050DB004B0EF9 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		8776C5A72A805555004B0EF9 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8776C5A12A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift */,
 				8776C5A32A804FA0004B0EF9 /* RotationGestureBootcamp.swift */,
 				8776C5A52A8050DB004B0EF9 /* DragGestureBootcamp.swift */,
+				8776C5A72A805555004B0EF9 /* DragGestureBootcamp2.swift */,
 				8776C5972A80495E004B0EF9 /* Assets.xcassets */,
 				8776C5992A80495E004B0EF9 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				8776C5A42A804FA0004B0EF9 /* RotationGestureBootcamp.swift in Sources */,
 				8776C5A22A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift in Sources */,
 				8776C5962A80495D004B0EF9 /* LongPressGestureBootcamp.swift in Sources */,
+				8776C5A82A805555004B0EF9 /* DragGestureBootcamp2.swift in Sources */,
 				8776C5942A80495D004B0EF9 /* SwiftUI_IntermediateApp.swift in Sources */,
 				8776C5A62A8050DB004B0EF9 /* DragGestureBootcamp.swift in Sources */,
 			);
