@@ -18,26 +18,20 @@ struct RandomModel: Identifiable {
 
 struct SheetsBootcamp: View {
     
-    @State var selectedModel: RandomModel = RandomModel(title: "Starting title")
-    @State var showSheet = false
-    @State var showSheet2 = false
+    @State var selectedModel: RandomModel? = nil
     
     var body: some View {
         VStack(spacing: 20) {
             Button("Button 1") {
                 selectedModel = RandomModel(title: "ONE")
-                showSheet = true
             }
-            .sheet(isPresented: $showSheet) {
-                NextScreen(selectedModel: RandomModel(title: "ONE"))
-            }
+
             Button("Button 2") {
-                showSheet2 = true
+                selectedModel = RandomModel(title: "TWO")
             }
-            .sheet(isPresented: $showSheet2) {
-                NextScreen(selectedModel: RandomModel(title: "TWO"))
-            }
-            
+        }
+        .sheet(item: $selectedModel) { model in
+            NextScreen(selectedModel: model)
         }
         
     }
