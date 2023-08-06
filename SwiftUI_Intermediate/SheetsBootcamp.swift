@@ -20,6 +20,7 @@ struct SheetsBootcamp: View {
     
     @State var selectedModel: RandomModel = RandomModel(title: "Starting title")
     @State var showSheet = false
+    @State var showSheet2 = false
     
     var body: some View {
         VStack(spacing: 20) {
@@ -27,20 +28,25 @@ struct SheetsBootcamp: View {
                 selectedModel = RandomModel(title: "ONE")
                 showSheet = true
             }
-            Button("Button 2") {
-                selectedModel = RandomModel(title: "TWO")
-                showSheet = true
+            .sheet(isPresented: $showSheet) {
+                NextScreen(selectedModel: RandomModel(title: "ONE"))
             }
+            Button("Button 2") {
+                showSheet2 = true
+            }
+            .sheet(isPresented: $showSheet2) {
+                NextScreen(selectedModel: RandomModel(title: "TWO"))
+            }
+            
         }
-        .sheet(isPresented: $showSheet) {
-            NextScreen(selectedModel: $selectedModel)
-        }
+        
     }
 }
 
+
 struct NextScreen: View {
     
-    @Binding var selectedModel: RandomModel
+    @State var selectedModel: RandomModel
     
     var body: some View {
         Text(selectedModel.title)
