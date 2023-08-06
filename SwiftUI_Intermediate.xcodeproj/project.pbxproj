@@ -18,6 +18,7 @@
 		8776C5AA2A805898004B0EF9 /* SrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5A92A805898004B0EF9 /* SrollViewReaderBootcamp.swift */; };
 		8776C5AC2A805C49004B0EF9 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5AB2A805C49004B0EF9 /* GeometryReaderBootcamp.swift */; };
 		8776C5AE2A806192004B0EF9 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5AD2A806192004B0EF9 /* SheetsBootcamp.swift */; };
+		8776C5B02A80664A004B0EF9 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5AF2A80664A004B0EF9 /* MaskBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		8776C5A92A805898004B0EF9 /* SrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		8776C5AB2A805C49004B0EF9 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		8776C5AD2A806192004B0EF9 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
+		8776C5AF2A80664A004B0EF9 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				8776C5A92A805898004B0EF9 /* SrollViewReaderBootcamp.swift */,
 				8776C5AB2A805C49004B0EF9 /* GeometryReaderBootcamp.swift */,
 				8776C5AD2A806192004B0EF9 /* SheetsBootcamp.swift */,
+				8776C5AF2A80664A004B0EF9 /* MaskBootcamp.swift */,
 				8776C5972A80495E004B0EF9 /* Assets.xcassets */,
 				8776C5992A80495E004B0EF9 /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8776C5B02A80664A004B0EF9 /* MaskBootcamp.swift in Sources */,
 				8776C5A42A804FA0004B0EF9 /* RotationGestureBootcamp.swift in Sources */,
 				8776C5A22A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift in Sources */,
 				8776C5962A80495D004B0EF9 /* LongPressGestureBootcamp.swift in Sources */,
