@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		871D335E2A81936E003CEB57 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */; };
+		871D33602A819563003CEB57 /* LocalNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */; };
 		8776C5942A80495D004B0EF9 /* SwiftUI_IntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5932A80495D004B0EF9 /* SwiftUI_IntermediateApp.swift */; };
 		8776C5962A80495D004B0EF9 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776C5952A80495D004B0EF9 /* LongPressGestureBootcamp.swift */; };
 		8776C5982A80495E004B0EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8776C5972A80495E004B0EF9 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		8776C5902A80495D004B0EF9 /* SwiftUI_Intermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Intermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8776C5932A80495D004B0EF9 /* SwiftUI_IntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_IntermediateApp.swift; sourceTree = "<group>"; };
 		8776C5952A80495D004B0EF9 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				8776C5AF2A80664A004B0EF9 /* MaskBootcamp.swift */,
 				8776C5B12A806A42004B0EF9 /* SoundsBootcamp.swift */,
 				871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */,
+				871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */,
 				8776C5B32A806C67004B0EF9 /* Sounds */,
 				8776C5972A80495E004B0EF9 /* Assets.xcassets */,
 				8776C5992A80495E004B0EF9 /* Preview Content */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8776C5B02A80664A004B0EF9 /* MaskBootcamp.swift in Sources */,
+				871D33602A819563003CEB57 /* LocalNotificationsBootcamp.swift in Sources */,
 				871D335E2A81936E003CEB57 /* HapticsBootcamp.swift in Sources */,
 				8776C5A42A804FA0004B0EF9 /* RotationGestureBootcamp.swift in Sources */,
 				8776C5A22A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift in Sources */,
