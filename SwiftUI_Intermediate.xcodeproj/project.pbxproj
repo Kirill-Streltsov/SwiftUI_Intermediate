@@ -27,6 +27,8 @@
 		8776C5B72A806C70004B0EF9 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8776C5B52A806C70004B0EF9 /* tada.mp3 */; };
 		87F0A7382A82D2B00042E2F6 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A7372A82D2B00042E2F6 /* CoreDataBootcamp.swift */; };
 		87F0A73B2A82D3B50042E2F6 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A7392A82D3B50042E2F6 /* FruitsContainer.xcdatamodeld */; };
+		87F0A73D2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */; };
+		87F0A7402A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		8776C5B52A806C70004B0EF9 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		87F0A7372A82D2B00042E2F6 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		87F0A73A2A82D3B50042E2F6 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelatoinshipsBootcamp.swift; sourceTree = "<group>"; };
+		87F0A73F2A82DC560042E2F6 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 				871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */,
 				871D33612A819E54003CEB57 /* ArrayBootcamp.swift */,
 				87F0A7372A82D2B00042E2F6 /* CoreDataBootcamp.swift */,
+				87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */,
 				87F0A7392A82D3B50042E2F6 /* FruitsContainer.xcdatamodeld */,
+				87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */,
 				8776C5B32A806C67004B0EF9 /* Sounds */,
 				8776C5972A80495E004B0EF9 /* Assets.xcassets */,
 				8776C5992A80495E004B0EF9 /* Preview Content */,
@@ -207,10 +213,12 @@
 				8776C5A82A805555004B0EF9 /* DragGestureBootcamp2.swift in Sources */,
 				8776C5B22A806A42004B0EF9 /* SoundsBootcamp.swift in Sources */,
 				8776C5AA2A805898004B0EF9 /* SrollViewReaderBootcamp.swift in Sources */,
+				87F0A7402A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld in Sources */,
 				8776C5AE2A806192004B0EF9 /* SheetsBootcamp.swift in Sources */,
 				8776C5942A80495D004B0EF9 /* SwiftUI_IntermediateApp.swift in Sources */,
 				87F0A7382A82D2B00042E2F6 /* CoreDataBootcamp.swift in Sources */,
 				8776C5A62A8050DB004B0EF9 /* DragGestureBootcamp.swift in Sources */,
+				87F0A73D2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +428,16 @@
 			);
 			currentVersion = 87F0A73A2A82D3B50042E2F6 /* FruitsContainer.xcdatamodel */;
 			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87F0A73F2A82DC560042E2F6 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 87F0A73F2A82DC560042E2F6 /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
