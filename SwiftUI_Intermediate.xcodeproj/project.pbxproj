@@ -30,6 +30,7 @@
 		87F0A73D2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */; };
 		87F0A7402A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */; };
 		87F0A7422A82E6460042E2F6 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A7412A82E6460042E2F6 /* BackgroundThreadBootcamp.swift */; };
+		87F0A78C2A8426F30042E2F6 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A78B2A8426F30042E2F6 /* DownloadWithCombine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelatoinshipsBootcamp.swift; sourceTree = "<group>"; };
 		87F0A73F2A82DC560042E2F6 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		87F0A7412A82E6460042E2F6 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		87F0A78B2A8426F30042E2F6 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				87F0A7372A82D2B00042E2F6 /* CoreDataBootcamp.swift */,
 				87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */,
 				87F0A7412A82E6460042E2F6 /* BackgroundThreadBootcamp.swift */,
+				87F0A78B2A8426F30042E2F6 /* DownloadWithCombine.swift */,
 				87F0A7392A82D3B50042E2F6 /* FruitsContainer.xcdatamodeld */,
 				87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */,
 				8776C5B32A806C67004B0EF9 /* Sounds */,
@@ -222,6 +225,7 @@
 				87F0A7382A82D2B00042E2F6 /* CoreDataBootcamp.swift in Sources */,
 				8776C5A62A8050DB004B0EF9 /* DragGestureBootcamp.swift in Sources */,
 				87F0A73D2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift in Sources */,
+				87F0A78C2A8426F30042E2F6 /* DownloadWithCombine.swift in Sources */,
 				87F0A7422A82E6460042E2F6 /* BackgroundThreadBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
