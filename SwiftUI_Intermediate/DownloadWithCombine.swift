@@ -31,7 +31,7 @@ class DownloadWithCombineViewModel: ObservableObject {
         // .subscribe on backgroun thread is not by default. We can ommit it
         
         // 1. create the publisher
-        // 2. subscribe publisher on background thread
+        // 2. subscribe publisher on background thread (optional as stated above)
         // 3. receive on main thread
         // 4. tryMap (check that the data is good)
         // 5. decode data
@@ -39,22 +39,28 @@ class DownloadWithCombineViewModel: ObservableObject {
         // 7. store (cancel subscription if needed)
         
         URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .background))
-            .receive(on: DispatchQueue.main)
-            .tryMap { (data, response) -> Data in
-                guard let response = response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode < 300 else {
-                    throw URLError(.badServerResponse)
-                }
-                return data
-            }
+            .receive(on: DispatchQueue.main) // 3.
+            .tryMap(handleOutput)
             .decode(type: [PostModel].self, decoder: JSONDecoder())
             .sink { completion in
-                print("COMPLETION: \(completion)")
+                switch completion {
+                case .finished:
+                    print("FINISHED")
+                case .failure(let error):
+                    print("ERROR WHILE GETTING DATA FROM THE WEB: \(error)")
+                }
             } receiveValue: { [weak self] returnedPosts in
                 self?.posts = returnedPosts
             }
             .store(in: &cancellables)
 
+    }
+    
+    func handleOutput(output: URLSession.DataTaskPublisher.Output) throws -> Data {
+        guard let response = output.response as? HTTPURLResponse, response.statusCode >= 200 && response.statusCode < 300 else {
+            throw URLError(.badServerResponse)
+        }
+        return output.data
     }
 }
 
@@ -65,7 +71,7 @@ struct DownloadWithCombine: View {
     var body: some View {
         List {
             ForEach(vm.posts) { post in
-                VStack {
+                VStack(alignment: .leading) {
                     Text(post.title)
                         .font(.headline)
                     Text(post.body)
