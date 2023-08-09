@@ -31,6 +31,7 @@
 		87F0A7402A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */; };
 		87F0A7422A82E6460042E2F6 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A7412A82E6460042E2F6 /* BackgroundThreadBootcamp.swift */; };
 		87F0A78C2A8426F30042E2F6 /* DownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A78B2A8426F30042E2F6 /* DownloadWithCombine.swift */; };
+		87F0A78E2A842EF70042E2F6 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F0A78D2A842EF70042E2F6 /* TimerBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		87F0A73F2A82DC560042E2F6 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		87F0A7412A82E6460042E2F6 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		87F0A78B2A8426F30042E2F6 /* DownloadWithCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithCombine.swift; sourceTree = "<group>"; };
+		87F0A78D2A842EF70042E2F6 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				87F0A73C2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift */,
 				87F0A7412A82E6460042E2F6 /* BackgroundThreadBootcamp.swift */,
 				87F0A78B2A8426F30042E2F6 /* DownloadWithCombine.swift */,
+				87F0A78D2A842EF70042E2F6 /* TimerBootcamp.swift */,
 				87F0A7392A82D3B50042E2F6 /* FruitsContainer.xcdatamodeld */,
 				87F0A73E2A82DC560042E2F6 /* CoreDataContainer.xcdatamodeld */,
 				8776C5B32A806C67004B0EF9 /* Sounds */,
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87F0A78E2A842EF70042E2F6 /* TimerBootcamp.swift in Sources */,
 				8776C5B02A80664A004B0EF9 /* MaskBootcamp.swift in Sources */,
 				871D33602A819563003CEB57 /* LocalNotificationsBootcamp.swift in Sources */,
 				871D335E2A81936E003CEB57 /* HapticsBootcamp.swift in Sources */,
