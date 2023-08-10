@@ -81,17 +81,6 @@ struct CacheBootcamp: View {
                     
                 }
                 
-                if let image = vm.startingImage {
-                    Image(uiImage: image)
-                        .resizable()
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 200, height: 200)
-                        .clipped()
-                        .cornerRadius(10)
-                    
-                }
-                
                 HStack {
                     Button {
                         vm.saveToCache()
@@ -125,7 +114,15 @@ struct CacheBootcamp: View {
                         .background(.green)
                         .cornerRadius(10)
                 }
-                
+                if let image = vm.cachedImage {
+                    Image(uiImage: image)
+                        .resizable()
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 200, height: 200)
+                        .clipped()
+                        .cornerRadius(10)
+                }
                 Spacer()
             }
             .navigationTitle("Cache Bootcamp")
