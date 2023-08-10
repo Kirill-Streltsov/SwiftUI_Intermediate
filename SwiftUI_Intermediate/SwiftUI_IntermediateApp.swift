@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_IntermediateApp: App {
     var body: some Scene {
         WindowGroup {
-            FileManagerBootcamp()
+            CacheBootcamp()
         }
     }
 }
