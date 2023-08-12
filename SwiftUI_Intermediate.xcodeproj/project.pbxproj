@@ -11,6 +11,10 @@
 		202A705F2A881FBF008A2000 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A705E2A881FBF008A2000 /* PhotoModel.swift */; };
 		202A70612A8820A1008A2000 /* DownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70602A8820A1008A2000 /* DownloadingImagesViewModel.swift */; };
 		202A70632A8821BF008A2000 /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70622A8821BF008A2000 /* PhotoModelDataService.swift */; };
+		202A70652A88254C008A2000 /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70642A88254C008A2000 /* DownloadingImagesRow.swift */; };
+		202A70672A8825A4008A2000 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70662A8825A4008A2000 /* DownloadingImageView.swift */; };
+		202A70692A882614008A2000 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70682A882614008A2000 /* ImageLoadingViewModel.swift */; };
+		202A706B2A8829A8008A2000 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A706A2A8829A8008A2000 /* PhotoModelCacheManager.swift */; };
 		871D335E2A81936E003CEB57 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */; };
 		871D33602A819563003CEB57 /* LocalNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */; };
 		871D33622A819E54003CEB57 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D33612A819E54003CEB57 /* ArrayBootcamp.swift */; };
@@ -46,6 +50,10 @@
 		202A705E2A881FBF008A2000 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
 		202A70602A8820A1008A2000 /* DownloadingImagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesViewModel.swift; sourceTree = "<group>"; };
 		202A70622A8821BF008A2000 /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		202A70642A88254C008A2000 /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		202A70662A8825A4008A2000 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		202A70682A882614008A2000 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		202A706A2A8829A8008A2000 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
 		871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		871D33612A819E54003CEB57 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
@@ -111,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				202A705C2A881EC7008A2000 /* DownloadingImagesBootcamp.swift */,
+				202A70642A88254C008A2000 /* DownloadingImagesRow.swift */,
+				202A70662A8825A4008A2000 /* DownloadingImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -119,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				202A70602A8820A1008A2000 /* DownloadingImagesViewModel.swift */,
+				202A70682A882614008A2000 /* ImageLoadingViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -127,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				202A70622A8821BF008A2000 /* PhotoModelDataService.swift */,
+				202A706A2A8829A8008A2000 /* PhotoModelCacheManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -272,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F0A78E2A842EF70042E2F6 /* TimerBootcamp.swift in Sources */,
+				202A706B2A8829A8008A2000 /* PhotoModelCacheManager.swift in Sources */,
 				87F8F3C92A84E5AB00A9B86D /* FileManagerBootcamp.swift in Sources */,
 				8776C5B02A80664A004B0EF9 /* MaskBootcamp.swift in Sources */,
 				87F0A7902A8436260042E2F6 /* SubscriberBootcamp.swift in Sources */,
@@ -279,7 +292,9 @@
 				871D335E2A81936E003CEB57 /* HapticsBootcamp.swift in Sources */,
 				8776C5A42A804FA0004B0EF9 /* RotationGestureBootcamp.swift in Sources */,
 				202A70612A8820A1008A2000 /* DownloadingImagesViewModel.swift in Sources */,
+				202A70692A882614008A2000 /* ImageLoadingViewModel.swift in Sources */,
 				87F0A73B2A82D3B50042E2F6 /* FruitsContainer.xcdatamodeld in Sources */,
+				202A70672A8825A4008A2000 /* DownloadingImageView.swift in Sources */,
 				8776C5A22A804CA1004B0EF9 /* MagnificationGestureBootcamp.swift in Sources */,
 				8776C5962A80495D004B0EF9 /* LongPressGestureBootcamp.swift in Sources */,
 				871D33622A819E54003CEB57 /* ArrayBootcamp.swift in Sources */,
@@ -293,6 +308,7 @@
 				8776C5AE2A806192004B0EF9 /* SheetsBootcamp.swift in Sources */,
 				202A70632A8821BF008A2000 /* PhotoModelDataService.swift in Sources */,
 				8776C5942A80495D004B0EF9 /* SwiftUI_IntermediateApp.swift in Sources */,
+				202A70652A88254C008A2000 /* DownloadingImagesRow.swift in Sources */,
 				87F0A7382A82D2B00042E2F6 /* CoreDataBootcamp.swift in Sources */,
 				8776C5A62A8050DB004B0EF9 /* DragGestureBootcamp.swift in Sources */,
 				87F0A73D2A82DB210042E2F6 /* CoreDataRelatoinshipsBootcamp.swift in Sources */,

@@ -18,14 +18,16 @@ import SwiftUI
 struct DownloadingImagesBootcamp: View {
 
     @StateObject var vm = DownloadingImagesViewModel()
+    
 
     var body: some View {
         NavigationView {
             List {
                 ForEach(vm.dataArray) { model in
-                    Text(model.title)
+                    DownloadingImagesRow(model: model)
                 }
             }
+            .listStyle(.plain)
             .navigationTitle("Downloading Images")
         }
     }
