@@ -15,6 +15,7 @@
 		202A70672A8825A4008A2000 /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70662A8825A4008A2000 /* DownloadingImageView.swift */; };
 		202A70692A882614008A2000 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A70682A882614008A2000 /* ImageLoadingViewModel.swift */; };
 		202A706B2A8829A8008A2000 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A706A2A8829A8008A2000 /* PhotoModelCacheManager.swift */; };
+		202A706D2A882A97008A2000 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202A706C2A882A97008A2000 /* PhotoModelFileManager.swift */; };
 		871D335E2A81936E003CEB57 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */; };
 		871D33602A819563003CEB57 /* LocalNotificationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */; };
 		871D33622A819E54003CEB57 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871D33612A819E54003CEB57 /* ArrayBootcamp.swift */; };
@@ -54,6 +55,7 @@
 		202A70662A8825A4008A2000 /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
 		202A70682A882614008A2000 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		202A706A2A8829A8008A2000 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		202A706C2A882A97008A2000 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 		871D335D2A81936E003CEB57 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		871D335F2A819563003CEB57 /* LocalNotificationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsBootcamp.swift; sourceTree = "<group>"; };
 		871D33612A819E54003CEB57 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				202A70622A8821BF008A2000 /* PhotoModelDataService.swift */,
 				202A706A2A8829A8008A2000 /* PhotoModelCacheManager.swift */,
+				202A706C2A882A97008A2000 /* PhotoModelFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87F0A78E2A842EF70042E2F6 /* TimerBootcamp.swift in Sources */,
+				202A706D2A882A97008A2000 /* PhotoModelFileManager.swift in Sources */,
 				202A706B2A8829A8008A2000 /* PhotoModelCacheManager.swift in Sources */,
 				87F8F3C92A84E5AB00A9B86D /* FileManagerBootcamp.swift in Sources */,
 				8776C5B02A80664A004B0EF9 /* MaskBootcamp.swift in Sources */,
