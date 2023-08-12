@@ -32,7 +32,7 @@ class LocalFileManager {
                 try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true)
                 print("Success creating folder.")
             } catch let error {
-                print("Error creating folder")
+                print("Error creating folder: \(error)")
             }
         }
     }
